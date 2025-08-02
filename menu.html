@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1><span id="currentUser"></span></h1>
+    <button onclick="location.href='game.html?mode=practice'">Play vs Yourself</button>
+    <button onclick="location.href='game.html?mode=random'">Play vs Random</button>
+    <button onclick="location.href='profile.html'">View Profile</button>
+    <button onclick="logout()">Logout</button>
+    <p>Don't have an account? <a href="sign-up.html">Sign Up</a></p>
+    <p>Already have an account? <a href="login.html">Login</a></p>
+    <p id="auth-msg"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

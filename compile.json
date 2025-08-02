@@ -1,0 +1,7 @@
+{
+  "project": "RockPaperScissors",
+  "build": "web",
+  "status": "development",
+  "targetPlatform": "browser",
+  "features": ["login", "profile", "practice mode", "matchmaking", "menu"]
+}
